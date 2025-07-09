@@ -105,7 +105,7 @@ gemini_api_key = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=gemini_api_key)
 
 def get_restaurants(cuisine):
-    model = genai.GenerativeModel("models/gemini-1.5-flash-8b-latest")
+    model = genai.GenerativeModel("models/gemini-2.5-flash-preview-05-20")
 
     # Step 1: Get restaurant name
     name_prompt = f"I want to open a restaurant for {cuisine} food. Suggest a fancy name for this restaurant."
