@@ -93,9 +93,15 @@
 #         "menu_items": menu_items
 #     }
 
+import os
+from dotenv import load_dotenv
 import google.generativeai as genai
-from keys import gemini_api_key
 
+# Load the .env file
+load_dotenv()
+
+# Get the key
+gemini_api_key = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=gemini_api_key)
 
 def get_restaurants(cuisine):
