@@ -1,0 +1,11 @@
+{
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "projectName": "Restaurant-Recommender",
+  "projectOwner": "bvm2129",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
